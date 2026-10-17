@@ -1,0 +1,15 @@
+[project]
+name = "courier-ais-tracking"
+version = "0.1.0"
+description = "Курьерская АИС: сервис «Трекинг»"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "pydantic>=2.6",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.1",
+    "aio-pika>=9.4",
+    "redis>=5.0",
+    "websockets>=12.0",
+]
