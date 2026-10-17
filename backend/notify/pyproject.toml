@@ -1,0 +1,14 @@
+[project]
+name = "courier-ais-notify"
+version = "0.1.0"
+description = "Курьерская АИС: сервис «Уведомления»"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "pydantic>=2.6",
+    "httpx>=0.27",
+    "aio-pika>=9.4",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.1",
+]
